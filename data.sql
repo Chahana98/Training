@@ -31,6 +31,7 @@ CREATE TABLE AuthorDetails(
 drop table AuthorDetails
 
 
+<<<<<<< HEAD
 CREATE TABLE Books(
 ID int PRIMARY KEY,
 Title nvarchar(200),
@@ -81,3 +82,5 @@ JOIN Books ON Authors.AuthorsId = Books.Id;
 
 
 
+=======
+>>>>>>> 6ce348f1771620da8d6ac6d509a08dd07a9a9862
